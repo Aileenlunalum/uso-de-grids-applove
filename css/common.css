@@ -1,43 +1,5 @@
 
-.alignCenter{
-  text-align: center;
 
-}
-header{
-  position: fixed;
-}
-nav{
-  background-color: white;
-}
-nav > a{
-  font-weight: 700;
-}
-#inicio{
-  clear: both;
-  background-image: url(../assets/images/bg-home.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-}
-#inicio > div > div > input{
-  background-color: #2ECC71;
-  border: none;
-  padding: 10px;
-  color: white;
-  margin: 20%;
-  margin-bottom: 115px;
-}
-#inicio > div:first-child{
-  padding: 50px;
-  font-size: 20px;
-}
-#inicio > div:nth-child(2) {
-  font-size: 40px;
-  margin: none;
-}
-#inicio > div > div > input:hover{
-  color: #E95853;
-}
 
 /*Clases reutilizables para el proyecto*/
 
@@ -49,6 +11,44 @@ nav > a{
  }
  /*(Aquí pueden ir las clases de tu grid)*/
  /*header*/
+ .alignCenter{
+   text-align: center;
+ }
+ header{
+   position: fixed;
+ }
+ nav{
+   background-color: white;
+ }
+ nav > a{
+   font-weight: 700;
+ }
+ #inicio{
+   clear: both;
+   background-image: url(../assets/images/bg-home.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+ }
+ #inicio > div > div > input{
+   background-color: #2ECC71;
+   border: none;
+   padding: 10px;
+   color: white;
+   margin: 20%;
+   margin-bottom: 115px;
+ }
+ #inicio > div:first-child{
+   padding: 50px;
+   font-size: 20px;
+ }
+ #inicio > div:nth-child(2) {
+   font-size: 40px;
+   margin: none;
+ }
+ #inicio > div > div > input:hover{
+   color: #E95853;
+ }
 
 .container{
   width: 100%;
@@ -110,7 +110,7 @@ clear:both;
 .colorLetra{
   color:white;
 }
-/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+
 
 .mb-0 {
   margin-bottom: 0;
